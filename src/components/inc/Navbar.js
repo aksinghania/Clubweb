@@ -1,15 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./Navbar.css";
 
 function Navbar() {
   return (
-    <div className="navbar-dark bg-dark shadow">
+    <div className="navbar-dark shadow" style={{ zIndex: 100 }}>
       <div className="container">
         <div className="row">
           <div className="col-md-12">
             <nav class="navbar navbar-expand-lg">
               <div class="container-fluid">
-                <Link to="/" className="navbar-brand text-light">
+                <Link to="/" className="navbar-brand text-dark">
                   Byte-Builders
                 </Link>
 
