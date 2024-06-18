@@ -1,1 +1,0 @@
-# ReadMe for Club's website
