@@ -1,14 +1,18 @@
 import React from "react";
+import Navbar from "../inc/Navbar";
 
 function Contactus() {
   return (
-    <div className="container">
-      <div className="card mt-4">
-        <div className="card-body">
-          <h2>Contact Page</h2>
+    <>
+      <Navbar />
+      <div className="container">
+        <div className="card mt-4">
+          <div className="card-body">
+            <h2>Contact Page</h2>
+          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 
