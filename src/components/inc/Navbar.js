@@ -32,20 +32,17 @@ function Navbar() {
                 >
                   <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li className="nav-item">
-                      <Link to="/" className="nav-link active text-light">
+                      <Link to="/" className="nav-link active text-dark">
                         Home
                       </Link>
                     </li>
                     <li className="nav-item">
-                      <Link to="/about" className="nav-link active text-light">
+                      <Link to="/about" className="nav-link active text-dark">
                         About Us
                       </Link>
                     </li>
                     <li className="nav-item">
-                      <Link
-                        to="/contact"
-                        className="nav-link active text-light"
-                      >
+                      <Link to="/contact" className="nav-link active text-dark">
                         Contact Us
                       </Link>
                     </li>
