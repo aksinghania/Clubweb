@@ -51,8 +51,8 @@ function Slider() {
             src={clubwebsite}
             style={{ maxHeight: "45rem", objectFit: "contain" }}
           >
-            <h5>First slide label</h5>
-            <p>Some representative placeholder content for the first slide.</p>
+            <h5>Hackclub's Hackathon</h5>
+            <p>Stay tuned for ByteBuilder's hackathon!!!</p>
           </div>
         </div>
         <div className="carousel-item" style={{ backgroundColor: "black" }}>
@@ -65,8 +65,8 @@ function Slider() {
             style={{ maxHeight: "45rem", objectFit: "contain" }}
           />
           <div className="carousel-caption d-none d-md-block">
-            <h5>Second slide label</h5>
-            <p>Some representative placeholder content for the second slide.</p>
+            <h5>Epoch in New Delhi</h5>
+            <p>Can you find us?</p>
           </div>
         </div>
         <div className="carousel-item" style={{ backgroundColor: "black" }}>
@@ -77,8 +77,8 @@ function Slider() {
             style={{ maxHeight: "45rem", objectFit: "contain" }}
           />
           <div className="carousel-caption d-none d-md-block">
-            <h5>Third slide label</h5>
-            <p>Some representative placeholder content for the third slide.</p>
+            <h5>Computing Club</h5>
+            <p></p>
           </div>
         </div>
       </div>
