@@ -4,6 +4,8 @@ import Slider from "../inc/Slider";
 import { Link } from "react-router-dom";
 import VMC from "./inc/Vmc";
 import Programe1 from "../images/programe1.png";
+import Programe2 from "../images/programe1.png";
+import Programe3 from "../images/programe1.png";
 
 function Home() {
   return (
@@ -51,13 +53,7 @@ function Home() {
                   <div className="card-body">
                     <h6>Programe1</h6>
                     <div className="underline"></div>
-                    <p>
-                      We aim to inspire innovation, foster collaboration, and
-                      nurture technical skills in a supportive and inclusive
-                      environment. We strive to empower members to become
-                      forward-thinking tech leaders who make meaningful
-                      contributions to the world.
-                    </p>
+                    <p>Me teaching in a class</p>
 
                     <Link to="/Programes" className="btn btn-link">
                       Read More
@@ -65,15 +61,16 @@ function Home() {
                   </div>
                 </div>
               </div>
+
               <div className="col-md-4">
                 <div className="card shadow">
                   <img
-                    src={Programe1}
+                    src={Programe2}
                     className="w-100 border-bottom"
                     alt="Programes"
                   />
                   <div className="card-body">
-                    <h6>Programe1</h6>
+                    <h6>Programe2</h6>
                     <div className="underline"></div>
                     <p>
                       We aim to inspire innovation, foster collaboration, and
@@ -89,15 +86,16 @@ function Home() {
                   </div>
                 </div>
               </div>
+
               <div className="col-md-4">
                 <div className="card shadow">
                   <img
-                    src={Programe1}
+                    src={Programe3}
                     className="w-100 border-bottom"
                     alt="Programes"
                   />
                   <div className="card-body">
-                    <h6>Programe1</h6>
+                    <h6>Programe3</h6>
                     <div className="underline"></div>
                     <p>
                       We aim to inspire innovation, foster collaboration, and
