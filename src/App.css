@@ -21,3 +21,10 @@ p {
 .bg-c-light {
   background-color: #f2f2f2;
 }
+.footer {
+  color: #fff;
+  text-decoration: none !important;
+}
+.footer a:hover {
+  color: gray;
+}
